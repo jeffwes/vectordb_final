@@ -1,0 +1,19 @@
+# Virtual Environment Folder (Ignores all subfolders like lib/python3.11/)
+venv/
+
+# Specific exclusion for the common macOS/Linux dot-venv format
+.venv/
+env/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Qdrant Data Exclusion (Crucial)
+qdrant_storage/
