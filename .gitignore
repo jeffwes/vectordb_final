@@ -17,3 +17,7 @@ __pycache__/
 
 # Qdrant Data Exclusion (Crucial)
 qdrant_storage/
+
+# --- New Exclusions ---
+.env
+*.flag
